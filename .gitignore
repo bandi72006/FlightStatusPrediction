@@ -1,0 +1,8 @@
+# Virtual environments
+venv/
+
+# Locally saved models
+models/
+
+# Dataset
+data/
