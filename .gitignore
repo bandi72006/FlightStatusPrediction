@@ -2,7 +2,12 @@
 venv/
 
 # Locally saved models
-models/
+localModels/
 
 # Dataset
-data/
+dataset/
+
+__pycache__/
+
+mlruns/
+*.db
