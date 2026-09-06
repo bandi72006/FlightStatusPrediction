@@ -1,0 +1,25 @@
+artifact_path: file:C:/Users/bandi/OneDrive/Documents/Coding/Python/MLOpsFlightStatusPrediction/mlruns/1/models/m-7b08fcd1cc9b4b94b06b15a87e5bf9ac/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+mlflow_version: 3.15.1
+model_id: m-7b08fcd1cc9b4b94b06b15a87e5bf9ac
+model_size_bytes: 522479
+model_uuid: m-7b08fcd1cc9b4b94b06b15a87e5bf9ac
+prompts: null
+run_id: ed24b9c97fd746b5928198efbadcf2a2
+utc_time_created: '2026-08-25 07:38:38.799400'
